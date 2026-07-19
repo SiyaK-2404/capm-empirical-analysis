@@ -76,9 +76,7 @@ Companies were selected across multiple GICS sectors, including:
 
 For each company, the following regression was estimated using Ordinary Least Squares (OLS):
 
-\[
-R_i-R_f=\alpha+\beta(R_m-R_f)+\epsilon
-\]
+> **Rᵢ − R𝒇 = α + β(Rₘ − R𝒇) + ε**
 
 The following statistics were extracted:
 
@@ -94,11 +92,9 @@ Estimated betas were grouped by sector to compare systematic risk across industr
 
 ### 5. CAPM Validation
 
-Expected returns were calculated using the CAPM equation:
+Expected returns were calculated using:
 
-\[
-E(R_i)=R_f+\beta_i(R_m-R_f)
-\]
+> **E(Rᵢ) = R𝒇 + β(Rₘ − R𝒇)**
 
 These expected returns were then compared with realized annualized returns to quantify pricing errors and evaluate CAPM's predictive performance.
 
